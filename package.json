@@ -5,13 +5,18 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "next start",
-    "dev": "next",
-    "build": "next build"
+    "start": "npx next start",
+    "dev": "npx next",
+    "build": "npx next build"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "dependencies": {
+    "next": "^9.3.6",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
   "devDependencies": {
     "babel-eslint": "^10.1.0",
     "eslint": "^6.8.0",
